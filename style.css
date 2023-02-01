@@ -1,4 +1,41 @@
-body{
-    background-color: antiquewhite;
-    color: violet;
+.container-fluid{
+    background-color: rgb(54, 54, 184); 
+    color: white;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+@media (max-width: 882px){
+    .container{
+        font-size: 20px;
+        padding-left: 50px;
+    }
+}
+.logo{
+    margin-left: 7.5rem;
+}
+img{
+    height: 5rem;
+    width: 10rem;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 35rem;
+    bottom: 5rem;
+    align-items: center;
+    list-style: none;
+}
+.inside{
+    position: relative;
+    padding: 0 2rem 0 0;
+}
+.top li a{
+    text-decoration: none;
+}
+.container{
+    position: relative;
+    bottom: 2rem;
 }
