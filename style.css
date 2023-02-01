@@ -39,3 +39,88 @@ img{
     position: relative;
     bottom: 2rem;
 }
+
+
+
+
+
+
+
+
+
+
+.out{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 7.5rem;
+    bottom: 5rem;
+    align-items: center;
+    list-style: none;
+}
+.in{
+    position: relative;
+    padding: 0 0 0 10em;
+}
+.out li a{
+    text-decoration: none;
+}
+
+.last{
+    margin-top: 10em;
+    background: #eeeeee;
+    font-size: smaller;
+    margin-left: 7.5rem;
+}
+.last h5{
+    margin-top: 2em;
+    /* margin-bottom: ; */
+    
+}   
+.column hr{
+    margin-top: -1em;
+}
+.last h5,span{
+    color: black;
+    font-weight:normal;
+}
+.last p a{
+    text-decoration: none;
+    
+}
+.last p{
+    line-height: 0.3rem;
+    
+    
+}
+.last button{
+    background-color: #0370c0;
+    /* align-items: center; */
+    justify-content: space-between;
+    color: #eeeeee;
+    border: none;
+    height: 3em;
+    width: 10em;
+    margin-bottom: 1em;
+}
+
+.column{
+    padding-left: 3em;
+}
+.terms{
+    display: flex;
+    flex-direction: row;
+    gap: 20em;
+    margin-left: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
