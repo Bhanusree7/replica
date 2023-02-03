@@ -1,64 +1,400 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>L&T</title>
-</head>
-<body>
     <section>
       <div class="logo">
-          <img src="photos/logo.jpg" alt="logo image">
-          <ul class="top">
-            <li class="inside">
-              <a href="#">Media</a>
-            </li>
-            <li class="inside">
-              <a href="#">Contact Us</a>
-            </li>
-            <li class="inside">
-              <a href="#">Investors</a>
-            </li>
-            <li class="inside">
-              <a href="#">Group Websites</a>
-            </li>
-          </ul>
+        <img src="assets/logo.png" alt="logo image" />
+        <ul class="top">
+          <li class="inside">
+            <a href="#">Media</a>
+          </li>
+          <li class="inside">
+            <a href="#">Contact Us</a>
+          </li>
+          <li class="inside">
+            <a href="#">Investors</a>
+          </li>
+          <li class="inside">
+            <a href="#">Group Websites</a>
+          </li>
+        </ul>
       </div>
-      
     </section>
-
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-home"></i></a>
-            </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About L&T Group</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Our Businesses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Product and Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sustainability</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Careers</a>
-          </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <button class="btn btn-outline-success" type="submit"><i class="fa fa-search"></i></button>
-          </form>
+    <section>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa fa-home"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About L&T Group</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Our Businesses</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Product and Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Sustainability</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+  
+    <div class="vid">
+      <video autoplay loop muted src="assets/video.mp4"></video>
+  </section>
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/metro.jpg" class="d-block w-100" alt="Metro Rail">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>L&T Metro Rail</h5>
+            <p class="pp">The Hyderabad Metro Rail is the world’s largest metro project in public-private partnership mode. It covers 69.2 km across three corridors, transforming Hyderabad, triggering robust economic activity around the city.</p>
+          </div>
         </div>
-      </nav>
+        <div class="carousel-item">
+          <img src="assets/LT-Finance-Personal-Loan.jpg" class="d-block w-100" alt="Financial Services">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>L&T Financial Services</h5>
+            <p class="pp">
+              L&T Financial Services (LTFS) is one of the leading, retail finance oriented Non-Banking Financial Companies (NBFCs) and offers a range of financial products and services through its wholly-owned subsidiaries.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/power.jpg" class="d-block w-100" alt="power">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>L&T Power</h5>
+            <p class="pp">L&T provides integrated concept - to - commissioning solutions for supercritical thermal power plants. We also offer comprehensive services for gas-based power plants.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+    </div>
+    <script>
+      const myCarouselElement = document.querySelector('#myCarousel')
+
+const carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 2000,
+  touch: false
+})
+    </script>
+</section>
+<section>
+  <div class="middle">  
+   <h2>INTEGRATED REPORT</h2>
+  <div class="right">
+    <img class="code-img" src="assets/intellectual capital.png" alt="Intellectual Capital">
+    <img class="code-img" src="assets/manufactured capital.png" alt="manufactured capital">
+    <img class="code-img" src="assets/financial capital.png" alt="financial capital"> 
+  </div>
+  <div class="right-down">
+    <img class="normal-img" src="assets/s-r capital.png" alt="s-r capital">
+    <img class="normal-img" src="assets/natural capital.png" alt="natural capital">
+    <img class="normal-img" src="assets/human capital.png" alt="human capital">
+  </div>
+  <div class="para">
+   <p>Over a decade of sustainability practices and reporting has seen L&T post encouraging results across each of the triple bottom-lines - economic, environmental and social. Our Sustainability Report has been replaced by an Integrated Report which tracks the sustainability performance of the organisation and its interconnectedness 
+    with the financial performance, showcasing how L&T is adding value to its stakeholders.</p>
+  </div>
+  <div class="btn">
+    <button>More</button>
+    <!-- <button type="button" class="btn btn-outline-info">Info</button> -->
+  </div>
+  </div>
+</section>
+
+
+
+<div class="latest">
+  <p><h2>LATEST HAPPENINGS</h2></p>
+  </div>
+  
+  
+   
+      <div class="news">
+        
+          <div class="first">
+             
+             
+              <button>PRESS RELEASE</button>
+              
+              <p><h2>L&T Construction secures<br>contracts (Mega*) for its Minerals<br>and Metals Business</h2></p>
+              <p><i>07 Dec 2022</i></p>
+              <p>Mumbai, Dec 7, 2022: The Minerals & Metals (M&M) Business of L&T Construction secured various orders in the Iron & Steel and Beneficiation...</p>
+              
+              
+          </div>
+          
+          <div class="second">
+              
+              <button>PRESS RELEASE</button>
+             
+              <p><h5>Financial Results for the quarter ended December 31, 2022</h5></p>
+              <p><i>30 January 2023</i></p>
+              <p>Hazira, January 30, 2023: Larsen & Toubro achieved Consolidated Revenues of ₹46,390 crore for the quarter ended December 31, 2022 recording a y-o-y growth of...</p>
+             
+              <button>PRESS RELEASE</button>
+             
+              <p><h5>L&T Construction Wins (Significant*) Orders for its Various Bu...</h5></p>
+              <p><i>23 January 2023</i></p>
+              <p>Mumbai, January 23, 2023: The Construction arm of Larsen & Toubro has secured<br>orders for its Power Transmission & Distribution and Buildings & Factories Businesses.</p>
+             
+              <button>PRESS RELEASE</button>
+             
+              <p><h5>L&T Construction awarded (Significant*) contract for its Buil...</h5></p>
+              <p><i>16 January 2023</i></p>
+              <p>Mumbai, January 16, 2023: The Buildings & Factories (B&F) Fast Business of L&T<br>Construction has secured a significant repeat order from a reputed and prestigious...</p>
+  
+              <hr>
+              <br>
+              <div class="view">
+                <p>View More</p><br><br>
+              </div>
+  
+          </div>
+  
+      </div>
+  
+
+
+
+  <section class="down">
+    
+      <footer class="last text-center text-lg-start text-muted">
+
+
+        <div class="follow">
+          
+          <ul class="out">
+            <li class="in">
+              <img src="https://png.pngtree.com/png-vector/20191027/ourlarge/pngtree-briefcase-vector-icon-white-background-png-image_1884992.jpg" alt="job openings">
+              <a href="#">CURRENT OPENINGS</a>
+            </li>
+            <li class="in">
+              <img src="https://icons-for-free.com/download-icon-linkedin+logo+logo+website+icon-1320190502911715717_512.png" alt="linkedin">
+              <a href="#">FOLLOW US</a>
+            </li>
+            <li class="in">
+              <img src="https://static01.nyt.com/images/2014/08/10/magazine/10wmt/10wmt-articleLarge-v4.jpg?quality=75&auto=webp&disable=upscale" alt="twitter">
+              <a href="#">FOLLOW US</a>
+            </li>
+            <li class="in">
+              <img src="https://www.freeiconspng.com/thumbs/youtube-logo-png/hd-youtube-logo-png-transparent-background-20.png" alt="youtube">
+              <a href="#">SUBSCRIBE</a>
+            </li>
+          </ul>
+        </div>
+       
+
+        <section class="footerCtr">
+          <div class="ctr text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="column col-md-3 col-lg-4 col-xl-3 mx-auto mb-3">
+                <h5 class="mb-4">
+                  About L&T Group
+                </h5>
+                <hr>
+                <p>
+                  <a href="#!" class="text-reset">Overview</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Technology for Growth</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Awards &amp Recognition</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Annual Review</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Leadership</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Facilities</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Overview</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Video Galery</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Vision</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Experience Centre - Mumbai</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Group Chairman's Address - 7th AGM</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Corporate Policies</a>
+                </p>
+
+              </div>
+
+              <div class="column col-md-2 col-lg-2 col-xl-3 mx-auto mb-3">
+                <h5 class="mb-4">Sustainability</h5>
+                <hr>
+                <p>
+                  <a href="#!" class="text-reset">Overview</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Environment</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Health &amp Safety</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Community Engagement</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Employee Engagement</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Green Portfolio</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Sustainability Updates</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Integrated Report</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Sustainability Development Goals</a>
+                </p>
+              </div>
+
+              <div class="column col-md-3 col-lg-2 col-xl-3 mx-auto mb-3">
+                <h5 class="mb-4">Careers</h5>
+                <hr>
+                <p>
+                  <a href="#!" class="text-reset">Overview</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Current Openings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset"
+                    >Learning &amp Development</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset"
+                    >Diversity, Equity &amp Inclusion</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset"
+                    >Recruitment Caution</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset"
+                    >Campus Recruitment</a
+                  >
+                </p>
+                <p>
+                  <a href="#!" class="text-reset"
+                    >Renew: Career Re-entry for Women</a
+                  >
+                </p>
+              </div>
+
+              <div class="column col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-3">
+                <h5 class=" mb-4">Contact Us</h5>
+                <hr>
+                <button>India & Global</button>
+                <p>Larsen &amp Toubro Limited</p>
+                <p>CIN - L99999MH1946PL004768</p>
+                <p>L&T House, N.M. Marg, Ballard</p>
+                <p>Estate,</p>
+                <p>Mumbai, Maharashtra - 400 001</p>
+                <p>Tel: +91 22 67525656</p>
+                <p>Fax: +91 22 67525858</p>
+                <p>Send us a mail:</p>
+                <p><span>infodesk@larsentoubro.com</span></p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr>
+        <div class="terms">
+        <div>
+          © 2023 LARSEN &amp TOUBRO LIMITED. All rights reserved. 
+          
+        </div>
+        <div>
+          COPYRIGHT &amp TERMS | PRIVACY POLICY | SITEMAP
+        </div>
+      </div>
+      </footer>
+      
+    </div>
+  </section>
 </body>
 </html>
+
+
+
+      
+
+
+
+
