@@ -80,6 +80,120 @@
 
 
 
+
+.Ctr{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 7.3rem;
+    margin-right: 7.3rem;
+    height:35rem;
+}
+
+.one{
+    background: url(https://www.larsentoubro.com/assets/corporate/images/rewamp_images/careerBg1.jpg);
+    
+
+}
+.one h2{
+    color: #024d87;
+    margin-top: 1rem ;
+     margin-left: 6rem ;
+    font-weight: normal;
+}
+.one h5{
+    color: #414141;
+    font-size: larger;
+    position: absolute;
+    z-index: 1;
+}
+.one img{
+    height: 24%;
+    width: 18% ;
+    position: absolute;
+    z-index: 1;
+   
+}
+.campus{
+    margin-left: 4.5rem;
+    margin-top: 1.5rem;
+}
+
+.books img{
+margin-left: 13rem;
+ margin-top: 14.2rem;
+}
+
+.box1, .box2{
+    height: 8rem;
+    width: 11rem;
+    /* height: 5%;
+    width: 10% ; */
+    /* font-weight:900; */
+    align-items: center;
+    padding: 2.2rem 1.5rem 1.5rem 1.5rem;
+    vertical-align: middle;
+    
+   
+}
+.box1{
+    margin-left: 17rem;
+    margin-top: 0.9em;
+    
+}
+
+.box2{
+    
+    margin-left: 3.8rem;
+    margin-top: 15rem;
+}
+
+.two{
+    background: url(assets/men.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.box1,.box2,.box3{
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    text-align: left;
+    
+}
+.box3{
+    
+    height: 13rem;
+    width: 24rem;
+    margin-top: 10rem;
+    margin-left: 2.5em;
+    padding-right: 2rem;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+    padding: 1.5rem 7.5rem 1.5rem 1.5rem;
+    
+}
+
+.end {
+    background-color:#003865;
+    width: 24rem;
+    height: 3rem;
+    margin-top: 23rem;
+    margin-left: 2.5rem;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    padding-top: 1em;
+    padding-left: 1.5em;
+    font-weight: bold;
+    font-size: small;
+    
+}
+
+
+
+
 .latest{
     text-align: center;
     color: #024d87;
@@ -89,7 +203,7 @@
 .news{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: -5em;
+    /* margin-bottom: -5em; */
     margin-left: 7.5rem;
     margin-right: 7.5rem;
     
@@ -111,6 +225,9 @@
  .first{
     background-image: url(assets/building.jpg);
     background-size: cover;
+    max-width: fit-content;
+    max-height: fit-content;
+    /* background-position: top center; */
     background-repeat: no-repeat;
     background-color: #f4f4f4;
     padding-left: 7.3em ;
@@ -138,7 +255,7 @@
 .second button{
     margin-top: 2em;
     margin-left: 0em;
-    margin-bottom: ;
+    /* margin-bottom: ; */
 }
 
 .second h5,hr{
