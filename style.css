@@ -144,14 +144,17 @@ margin-left: 13rem;
 .box2{
     
     margin-left: 3.8rem;
-    margin-top: 15rem;
+    margin-top: 15.5rem;
 }
 
 .two{
     background: url(assets/men.jpg);
     /* width: 35rem;
     height:35rem; */
-    background-size: auto;
+    margin-left: 0em;
+    background-size: cover;
+    background-position:  -10rem;
+    height: 35rem;
     background-repeat: no-repeat;
 }
 
@@ -224,7 +227,8 @@ margin-left: 13rem;
 
  .first{
     background-image: url(assets/building.jpg);
-    background-size: cover;
+    background-position: left;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     background-color: #f4f4f4;
     padding-left: 7.3em ;
@@ -276,7 +280,9 @@ margin-left: 13rem;
 
 
 
-
+.down footer{
+    margin-top: 5.2rem;
+}
 
 
 
@@ -284,8 +290,9 @@ margin-left: 13rem;
     background-color: #024d87;
     height: 4em;
     margin-bottom: -3em;
-    margin-top: 0em;
+    
 }
+
 
 
 .out{
