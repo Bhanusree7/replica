@@ -37,49 +37,87 @@
       </div>
     </section>
     <section>
-      <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  ><i class="fa fa-home"></i
-                ></a>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="fa fa-home"></i
+            ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About L&T Group
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Overview</a></li>
+                  <li><a class="dropdown-item" href="#">Leadership</a></li>
+                  <li><a class="dropdown-item" href="#">Experience center Mumbai</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Technology for growth</a></li>
+                  <li><a class="dropdown-item" href="#">Facilities</a></li>
+                  <li><a class="dropdown-item" href="#">Awards and Recognitions</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >About L&T Group</a
-                >
+                <a class="nav-link active" aria-current="page" href="#">Our Businesses</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sustainability
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Overview</a></li>
+                  <li><a class="dropdown-item" href="#">Employee Engagement</a></li>
+                  <li><a class="dropdown-item" href="#">Sustainable Development Goals</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Environment</a></li>
+                  <li><a class="dropdown-item" href="#">Green Portfolio</a></li>
+                  <li><a class="dropdown-item" href="#">Healthy and saftey</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Our Businesses</a
-                >
+                <a class="nav-link active" aria-current="page" href="#">Products And Services</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Product and Services</a
-                >
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Careers
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Overview</a></li>
+                  <li><a class="dropdown-item" href="#">Recruitment Caution</a></li>
+                  <li><a class="dropdown-item" href="#">Current Openings</a></li>
+                  <li><a class="dropdown-item" href="#">Campus Recruitment</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Learning & Development</a></li>
+                  <li><a class="dropdown-item" href="#">Diversity,Equity & Inculsion</a></li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Sustainability</a
-                >
+    
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Link</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >Careers</a
-                >
-              </li>
-            </ul>
+            </ul> -->
             <form class="d-flex" role="search">
               <button class="btn btn-outline-success" type="submit">
                 <i class="fa fa-search"></i>
               </button>
             </form>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
   
     <div class="vid">
       <video autoplay loop muted src="assets/video.mp4"></video>
@@ -282,7 +320,7 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
         <section class="footerCtr">
           <div class="ctr text-center text-md-start mt-5">
             <div class="row mt-3">
-              <div class="column col-md-3 col-lg-4 col-xl-3 mx-auto mb-3">
+              <div class="column col-md-2 col-lg-4 col-xl-3 mx-auto mb-3">
                 <h5 class="mb-4">
                   About L&T Group
                 </h5>
@@ -326,7 +364,7 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
 
               </div>
 
-              <div class="column col-md-2 col-lg-2 col-xl-3 mx-auto mb-3">
+              <div class="column col-md-2 col-lg-4 col-xl-3 mx-auto mb-3">
                 <h5 class="mb-4">Sustainability</h5>
                 <hr>
                 <p>
@@ -358,7 +396,7 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
                 </p>
               </div>
 
-              <div class="column col-md-3 col-lg-2 col-xl-3 mx-auto mb-3">
+              <div class="column col-md-2 col-lg-4 col-xl-3 mx-auto mb-3">
                 <h5 class="mb-4">Careers</h5>
                 <hr>
                 <p>
@@ -394,7 +432,7 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
                 </p>
               </div>
 
-              <div class="column col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-3">
+              <div class="column col-md-2 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-3">
                 <h5 class=" mb-4">Contact Us</h5>
                 <hr>
                 <button>India & Global</button>

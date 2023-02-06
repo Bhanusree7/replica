@@ -1,25 +1,101 @@
 
 .container-fluid{
     background-color: #024d87; 
-    color: white;
-    /* position:; */
+    height: 4rem;
     
 }
+.navbar-expand-lg .navbar-collapse{
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-left: 0rem;
+}
+.nav-link .active{
+    margin-right: 7.5rem;
+}
+
 .navbar-nav .nav-link.active{
-    color: white;
+    color:white;
     
+}
+.nav-link{
+    color: white;
+}
+.d-flex{
+    position: relative;
+    bottom: 0.7rem;
+    margin-left: 10rem;
+}
+.nav-link:focus, .nav-link:hover {
+    color: rgba(255, 255, 255, 0.942);
+    background-color: #0370c0;
 }
 .navbar-nav .nav-link.active:hover{
     background-color: #0370c0;
     
 }
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: 7.5rem;
+    margin-left: 7.5rem;
+}
 
-/* @media (max-width: 882px){
-    .container{
-        font-size: 20px;
-        padding-left: 50px;
+@media (min-width: 10002px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex ;
+    flex-basis: auto;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    margin-left: 12rem;
+}
+.carousel-indicators{
+    display: flex;
+}
+}
+
+@media (max-width:1208px){
+    
+   .out{
+    padding: 0.75em 0em 0.75em 0em;
+   } 
+   .column{
+    position: relative;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 12rem;
+    margin-right: 3rem;
+    width: 50%;
+    
+   }
+    
+    
+    
+.out li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 0em;
+}
+
+  
+    .in img{
+        height: 1.1rem ;
+        width: 1.3rem;
+        box-sizing: border-box;
+        /* background-color: white; */
+        left: 0;
+    
+    
     }
-} */
+
+}
+
+
 .logo{
     margin-left: 7.5rem;
     /* margin-top: 2rem;
@@ -107,8 +183,8 @@
     z-index: 1;
 }
 .one img{
-    height: 24%;
-    width: 18% ;
+    min-height: 24%;
+    min-width: 18% ;
     position: absolute;
     z-index: 1;
    
@@ -311,7 +387,7 @@ margin-left: 13rem;
     /* position: relative; */
     
     /* display: inline; */
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
     padding-right: 8em;
     
     
