@@ -46,6 +46,38 @@ background-color: #0370c0;
     height: 4rem;
 }
 @media only screen and (max-width:980px) and (min-width:400px){
+    
+    div.Ctr{
+        /* background-color: black; */
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        /* margin-left: 7.3rem;
+        margin-right: 7.3rem; */
+        /* height:100%; */
+    }
+    div.first button{
+        clear: both;
+        margin-top: 10rem;
+        margin-left: 2rem;
+        margin-bottom: 0rem;
+    
+        
+     }
+
+
+    
+div.news{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    /* margin-bottom: -5em; */
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    
+    
+}
+    
+    
+    
     .top li a{
         display: none;
     }
@@ -86,11 +118,7 @@ background-color: #0370c0;
         img.bhn{
             
         }
-        .car{
-           grid-template-columns: 1fr;
-           grid-template-rows: 1fr 1fr;
-           grid-template-areas: "one","two";
-        }
+       
 
         div.terms{
             margin:0;
@@ -117,6 +145,18 @@ background-color: #0370c0;
         background-color: #eeeeee;
     }
 }
+
+@media only screen and (max-width:515px){
+   
+
+    div.column p{
+        margin:30px;
+    }
+
+}   
+
+
+
 @media only screen and (min-width:100px) and (max-width:400px){
     .right, .right-down{
         display: flex;
@@ -156,6 +196,17 @@ background-color: #0370c0;
         right: 12rem;
        top: 5rem;
     }
+        
+div.news{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    /* margin-bottom: -5em; */
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    
+    
+}
+   
 
 }
 @media only screen and (min-width:300px) and (max-width:700px){
@@ -163,8 +214,31 @@ background-color: #0370c0;
         padding-left: 0;
         width:100%;
     }
+        
+div.news{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    /* margin-bottom: -5em; */
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
     
     
+}
+div.first p, div.first h2{
+    color: white;
+    margin-left: 2rem;
+    
+
+ }
+
+ div.first button{
+    clear: both;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 0rem;
+
+    
+ }
     
     
     .ir{
@@ -198,9 +272,9 @@ background-color: #0370c0;
         right: 4.8rem;
     }
 
-    div.rhs{
-        margin-left: 0rem;
-        background-color: aqua;
+    .terms div.rhs{
+        margin-left: 5px;
+        /* background-color: aqua; */
 }
 .last a.text-reset{
     /* padding:20px 0px 20px 0px; */
@@ -514,17 +588,20 @@ div.box1{
     /* background-size: cover; */
     background-repeat: no-repeat;
     background-color: #f4f4f4;
-    padding-left: 7.3em ;
+    /* padding-left: 7.3em ; */
     text-shadow: 3px 3px 6px black;
  }
  .first p, .first h2{
     color: white;
+    margin-left: 5rem;
     
 
  }
 
  .first button{
-    margin-top: 21em;
+    margin-top: 20rem;
+    margin-left: 5rem;
+    margin-bottom: 0rem;
 
     
  }
@@ -561,7 +638,9 @@ div.box1{
 
 
 
-
+.down .follow{
+    margin-top: 0;
+}
 
 
 
@@ -662,8 +741,12 @@ div.box1{
 .terms{
     display: flex;
     flex-direction: row;
-    gap: 17em;
+    /* gap: 17em; */
     margin-left: 2em;
+}
+div.rhs{
+    margin-left: 13.5rem;
+   
 }
 .nav-item ul li ul{
     display: block;
