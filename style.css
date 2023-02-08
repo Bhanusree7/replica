@@ -81,6 +81,12 @@ div.news{
     .top li a{
         display: none;
     }
+    .ir{
+        display: flex;
+        position: relative;
+        right: 8rem;
+
+    }
     .lg{
         display: flex;
         right: 4rem;
@@ -90,7 +96,7 @@ div.news{
         display: flex;
         position: relative;
         justify-content: space-between;
-        left: 0.1rem;
+        right:  10rem;
         /* background-color: #414141; */
     }
     .right-down{
@@ -98,12 +104,14 @@ div.news{
         position: relative;
         justify-content: center;
         /* background-color: #414141; */
-        left: 0.1rem;
+        /* left: 0.1rem; */
+        right:  10rem;
     }
         .para {
             position: relative;
             display: flex;
             padding: 0 1rem 0 1rem;
+            right:  10rem;
             margin-bottom: 20rem;
             
         }
@@ -251,7 +259,7 @@ div.first p, div.first h2{
         display: flex;
         position: relative;
         justify-content: center;
-        right:2.5rem;
+        right: 3rem;
         
     }
     .para{
