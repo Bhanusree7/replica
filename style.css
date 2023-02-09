@@ -182,7 +182,14 @@ div.news{
         width: 100%;
     }
     
-    
+    ul.out li.in{
+        padding-right: 0;
+     }
+     ul.out{
+        margin-left: 0rem;
+        padding-left: 0rem;
+        
+     }
     .right, .right-down{
         display: flex;
         position: relative;
@@ -218,6 +225,12 @@ div.news{
     
 }
 
+
+.footerCtr{
+    margin-top: 24rem;
+}
+
+
 .top li a{
     display: none;
 }
@@ -245,7 +258,7 @@ div.news{
 }
 
 ul.out{
-    background-color: #414141;
+    /* background-color: #414141; */
     display:grid;
     grid-template-columns: repeat(1,1fr);
 
@@ -286,6 +299,7 @@ div.terms{
     
     div.row.mt-3{
         padding-left: 0;
+
         width:100%;
     }
         
@@ -312,6 +326,15 @@ div.first p, div.first h2{
     margin-bottom: 0rem;
 
     
+ }
+
+ ul.out{
+    margin-left: 0rem;
+    padding-left: 0rem;
+    
+ }
+ ul.out li.in{
+    padding-right: 0;
  }
     
     
@@ -347,7 +370,7 @@ div.first p, div.first h2{
     }
 
     ul.out{
-        background-color: #414141;
+        
         display:grid;
         grid-template-columns: repeat(2,1fr);
 
@@ -357,6 +380,10 @@ div.first p, div.first h2{
 
     }
 
+
+    .footerCtr{
+        margin-top: 13rem;
+    }
 
 
 
@@ -758,8 +785,9 @@ div.box2{
 
 .follow{
     background-color: #024d87;
-    height: 4em;
+    height: 4rem;
     margin-bottom: -3em;
+    /* width: 100%; */
     
 }
 
