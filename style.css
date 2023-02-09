@@ -47,18 +47,29 @@ background-color: #0370c0;
 }
 @media only screen and (max-width:980px) and (min-width:400px){
     
+    div.column.col-md-2.col-lg-4.col-xl-3.mx-auto.mb-3{
+        padding-left: 0px;
+
+    }
+    /* div.column span{
+        padding-right: 2rem;
+    } */
+
     div.Ctr{
         /* background-color: black; */
         display: grid;
         grid-template-columns:repeat(1,1fr);
+        height: max-content;
+        width: max-content;
         /* margin-left: 7.3rem;
         margin-right: 7.3rem; */
         /* height:100%; */
     }
+    
     div.first button{
         clear: both;
         margin-top: 10rem;
-        margin-left: 2rem;
+        margin-left: 5rem;
         margin-bottom: 0rem;
     
         
@@ -156,21 +167,41 @@ div.news{
 
     div.row.mt-3{
         background-color: #eeeeee;
+
+    }
+    div.row{
+        padding-right: 2.5rem;
+        margin-right: 2rem;
+        margin-left: 0em;
     }
 }
 
 @media only screen and (max-width:515px){
-   
+/*    
 
     div.column p{
         margin:30px;
-    }
+    } */
 
 }   
 
 
 
 @media only screen and (min-width:100px) and (max-width:400px){
+    
+    *{
+        font-size: small;
+    }
+    h5,h2{
+        font-size: small;
+    }
+    hr{
+        width: 100%;
+    }
+    div.row{
+        margin:0;
+    }
+    
     .right, .right-down{
         display: flex;
         position: relative;
@@ -192,6 +223,15 @@ div.news{
     display: flex;
     right: 10rem;
     bottom: 3rem;
+}
+.column button.range{
+    /* clear:both; */
+    font-size: small;
+    height:10%;
+    width:80%;
+    position: relative;
+    margin-left:-0.5rem;
+    
 }
 
 .top li a{
@@ -219,7 +259,7 @@ div.news{
     
     
 }
-   
+
 
 }
 @media only screen and (min-width:400px) and (max-width:700px){
@@ -233,6 +273,21 @@ div.news{
     
 }
 @media only screen and (min-width:300px) and (max-width:700px){
+    .column hr{
+        margin-top: -1em;
+        width: 100%;
+        /* margin-left: 2em; */
+        float: left;
+    }
+    
+
+    .column div.corner p{
+       
+        line-height: 0.9rem;
+    }
+    
+
+    
     div.row.mt-3{
         padding-left: 0;
         width:100%;
@@ -321,6 +376,16 @@ div.first p, div.first h2{
 } */
 @media only screen and (max-width:1272px){
     
+ .two div.box3 {
+
+margin-left: 1rem;
+margin-right: 3rem;
+height: max-content;
+width: fit-content;
+/* padding-right: 8rem; */
+ }
+ 
+
 
   li.in{
         padding-right: 50px;
@@ -328,7 +393,12 @@ div.first p, div.first h2{
         margin-top: 0;
         height: 40px;
     }
-    
+    /* div.row{
+        padding-right: 2.5rem;
+        margin-right: 0rem;
+        margin-left: 0em;
+    }
+     */
 }
 @media only screen and (max-width:1012px){
     
@@ -480,57 +550,63 @@ color: white;
 }
 .one h5{
     color: #414141;
-    font-size: larger;
+    font-size: 1.3rem;
     position: absolute;
     z-index: 1;
+    font-weight: 640;
 }
 .one img{
-    height: 26%;
-    width: 18% ;
+    height: 20%;
+    width: 15% ;
     position: absolute;
     z-index: 1;
    
 }
+ .campus img{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+
 .campus img{
     /* margin-right: 5.5rem; */
     /* margin-bottom: 18.2rem; */
 }
 
 .books img{
-margin-left: 9.5rem;
- margin-top: 14.2rem;
+ margin-left: 14.5rem;
+ margin-top: 16.2rem;
 
 }
-div.box1{
-    /* margin-left: rem; */
-}
+
 .box1, .box2{
-    height: 8rem;
-    width: 11rem;
+    height: 17%;
+    width: 12%;
     align-items: center;
-    left: 3rem;
+    /* left: 3rem; */
     /* right: 3rem; */
     /* display: flex; */
     /* position: absolute; */
     /* z-index: 1; */
-    padding: 2.2rem 1.5rem 1.5rem 1.5rem;
+    padding: 2.2rem 3.5rem 1.5rem 1.5rem;
     
    
 }
-div.box1{
+/* div.box1{
     /* margin-left: 10rem; */
     /* margin-right: 0rem; */
-}
-.box1{
-    margin-left: 15.5rem;
-    margin-top: 0.9rem;
+
+div.box1{
+    margin-left: 16.5rem;
+   margin-top: 2.8rem;
+   
     
 }
 
-.box2{
+div.box2{
     
-    margin-left: 3.8rem;
-    margin-top: 15.5rem;
+    margin-left: 4.5rem;
+    margin-top: 16.8rem;
 }
 
 .two{
@@ -553,8 +629,8 @@ div.box1{
 }
 .box3{
     
-    height: 13rem;
-    width: 24rem;
+    width: 22.8%;
+    height: 26.8%;
     margin-top: 10rem;
     margin-left: 2.5em;
     padding-right: 2rem;
@@ -567,9 +643,9 @@ div.box1{
 
 .end {
     background-color:#003865;
-    width: 22.8rem;
-    height: 3rem;
-    margin-top: 23rem;
+    width: 22.8%;
+    height: 5%;
+    margin-top: 22.9rem;
     margin-left: 2.5rem;
     position: absolute;
     z-index: 2;
@@ -619,6 +695,8 @@ div.box1{
     background-color: #f4f4f4;
     /* padding-left: 7.3em ; */
     text-shadow: 3px 3px 6px black;
+    /* min-height: 100%; */
+    background-size: cover;
  }
  .first p, .first h2{
     color: white;
@@ -721,12 +799,19 @@ div.box1{
 }
 
 
+
+.down footer{
+    margin-top: 0rem;
+}
+
+
 .last{
     margin-top: 10em;
     background: #eeeeee;
     font-size: smaller;
     margin-left: 7.5rem;
     margin-right: 7.5rem;
+    
 }
 .last h5{
     margin-top: 2em;
@@ -735,7 +820,8 @@ div.box1{
 }   
 .column hr{
     margin-top: -1em;
-    width: 100%;
+    width: 70%;
+    
 }
 .last h5,span{
     color: black;
@@ -748,6 +834,7 @@ div.box1{
 }
 .last p{
     line-height: 0.5rem;
+    padding-left: 0rem;
     
     
     
@@ -767,6 +854,8 @@ div.box1{
 .column{
     padding-left: 3em;
 }
+
+
 .terms{
     display: flex;
     flex-direction: row;
