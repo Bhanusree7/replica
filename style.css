@@ -119,10 +119,15 @@ div.news{
         .btn{
             position: relative;
             display: flex;
-            bottom: 10rem;
+            /* bottom: 10rem; */
         }
-
-
+        button {
+            color: black;
+            background-color: #b5bab7;
+            border-color: #ced2d0;
+            margin-left: 10rem;
+            /* bottom: 1rem; */
+        } 
         img.bhn{
             
         }
@@ -216,6 +221,16 @@ div.news{
 }
    
 
+}
+@media only screen and (min-width:400px) and (max-width:700px){
+   .d-flex .btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #b5bab7;
+    border-color: #ced2d0;
+    margin-left: 10rem;
+    /* bottom: 1rem; */
+} 
+    
 }
 @media only screen and (min-width:300px) and (max-width:700px){
     div.row.mt-3{
@@ -362,8 +377,14 @@ div.first p, div.first h2{
 
 
 
-
-    
+/* 
+    .btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #b5bab7;
+    border-color: #ced2d0;
+    margin-left: 10rem;
+    bottom: 1rem;
+} */
 
 
 
