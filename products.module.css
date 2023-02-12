@@ -44,6 +44,26 @@ background-color: #0370c0;
     margin-right: 7.5rem;
     height: 4rem;
 }
+.print{
+    display: flex;
+    position:relative;
+   left:60rem;
+    top:1rem;
+    margin-left:7.5rem;
+    margin-right:7.5rem;
+    
+}
+.products{
+    background-color: #f6f6f6;
+    margin-left: 7.5rem;
+    margin-right:7.5rem;
+}
+.products h1{
+    color: #6e6d6d;
+    font-family: sans-serif;
+
+    padding:0 20rem 0 20rem;
+}
 @media only screen and (max-width:980px) and (min-width:400px){
     
     div.column.col-md-2.col-lg-4.col-xl-3.mx-auto.mb-3{
@@ -54,84 +74,7 @@ background-color: #0370c0;
         font-size: smaller;
     }
 
-    div.Ctr h5{
-        font-size: small;
-    }
-    div.Ctr div.box1{
-        padding-left: 0;
-        margin-left: 15rem;
-    }
-
-
    
-    /* div.column span{
-        padding-right: 2rem;
-    } */
-
-    div.Ctr{
-        background: url(https://www.larsentoubro.com/assets/corporate/images/rewamp_images/careerBg1.jpg);
-       /* background-size: cover; */
-        /* clear: both; */
-        display: grid;
-        grid-template-columns:repeat(1,1fr);
-        row-gap: 35rem;
-        
-        /* height: max-content;
-        width: max-content; */
-        
-        /* margin-left: 7.3rem;
-        margin-right: 7.3rem; */
-        /* height:100%; */
-    }
-
-    div.Ctr div.one{
-       background: url(https://www.larsentoubro.com/assets/corporate/images/rewamp_images/careerBg1.jpg);
-       background-size: cover;
-       background-color: black;
-    }
-    .Ctr div.box3{
-        padding:2rem;
-        max-width: 27rem;
-        clear: both;
-        margin-right: 4rem;
-        /* height: fit-content; */
-        /* width: min-content; */
-    }
-
-    div.careerPanel{
-        padding: 1rem;
-    }
-
-    div.learningPanel{
-        padding: 1rem;
-    }
-    .Ctr div.box1, .Ctr div.box2{
-        /* position:relative; */
-        height: 20%;
-        width: 18%;
-        text-align: center;
-
-    }
-    
-    div.first button{
-        clear: both;
-        margin-top: 10rem;
-        margin-left: 5rem;
-        margin-bottom: 0rem;
-    
-        
-     }
-
-
-    
-div.news{
-    display: grid;
-    grid-template-columns:repeat(1,1fr);
-   
-    
-    
-}
-    
     
     
     .top li a{
@@ -349,15 +292,6 @@ div.terms{
     }
     
 
-    div.Ctr div.box1{
-        margin-top: 10rem;
-        margin-left: 4rem;
-    }
-
-     img{
-        margin-top: 20rem;
-    }
-    
     .column div.corner p{
        
         line-height: 0.9rem;
@@ -559,6 +493,18 @@ width: fit-content;
 }
     }
     
+
+  
+
+  
+
+
+
+
+    
+
+
+
 .navbar-brand{
 color: white;
 }
@@ -629,282 +575,43 @@ color: white;
     background-color: #414141;
 }
 
-.Ctr{
-    /* background-color: black; */
+
+
+
+  
+.lists{
+    margin-top: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
     margin-left: 7.3rem;
     margin-right: 7.3rem;
-    /* height:100%; */
 }
 
-.one{
-    background: url(https://www.larsentoubro.com/assets/corporate/images/rewamp_images/careerBg1.jpg);
-    
-
-}
-.one h2{
-    color: #024d87;
-    margin-top: 1rem ;
-     margin-left: 6rem ;
-    font-weight: normal;
-}
-.one h5{
-    color: #414141;
-    font-size: 1.3rem;
-    position: absolute;
-    z-index: 1;
-    font-weight: 640;
-}
-.one img{
-    height: 20%;
-    width: 15% ;
-    position: absolute;
-    z-index: 1;
-   
-}
- .campus img{
-    margin-left: 5rem;
-    margin-top: 2rem;
-}
-
-
-
-.books img{
- margin-left: 14.5rem;
- margin-top: 16.2rem;
-
-}
-
-.box1, .box2{
-    height: 17%;
-    width: 12%;
-    align-items: center;
-    /* left: 3rem; */
-    /* right: 3rem; */
-    /* display: flex; */
-    /* position: absolute; */
-    /* z-index: 1; */
-    padding: 2.2rem 3.5rem 1.5rem 1.5rem;
-    
-   
-}
-/* div.box1{
-    /* margin-left: 10rem; */
-    /* margin-right: 0rem; */
-
-div.box1{
-    margin-left: 16.5rem;
-   margin-top: 2.8rem;
-   
-    
-}
-
-div.box2{
-    
-    margin-left: 4.5rem;
-    margin-top: 16.8rem;
-}
-
-.two{
-    background: url(assets/men.jpg);
-    /* width: 35rem;
-    height:35rem; */
-    /* margin-left: 0em; */
-    background-size: cover;
-    /* background-position:  -10rem; */
-    min-height: 35rem;
-    background-repeat: no-repeat;
-}
-
-.box1,.box2,.box3{
-    background-color: white;
-    position: absolute;
-    z-index: 2;
-    text-align: left;
-    
-}
-.box3{
-    
-    width: 22.8%;
-    height: 26.8%;
-    margin-top: 10rem;
-    margin-left: 2.5em;
-    padding-right: 2rem;
-    box-sizing: border-box;
-    position: absolute;
-    z-index: 1;
-    padding: 1.5rem 7.5rem 1.5rem 1.5rem;
-    
-}
-
-.end {
-    background-color:#003865;
-    width: 22.8%;
-    height: 5%;
-    /* margin-top: 22.9rem; */
-    margin-left: 2.5rem;
-    position: absolute;
-    z-index: 2;
-    color: white;
-    padding-top: 1em;
-    padding-left: 1.5em;
-    font-weight: bold;
-    font-size: small;
-    
-}
-
-
-
-.latest{
-    text-align: center;
-    color: #024d87;
-    font-weight: 100;
-}
-
-.news{
-    display: grid;
-    grid-template-columns:1fr 1fr;
-    /* margin-bottom: -5em; */
-    margin-left: 7.5rem;
-    margin-right: 7.5rem;
-    
-    
-}
- .news p{
-    font-size: 0.9rem;
-    
- }
-
- .news button{
-    background-color: #024d87;
-    color: white;
-    border: none;
-    font-size: 0.75rem;
-    padding: 0.2em 0.5em;
- }
-
- .first{
-    background-image: url(assets/building.jpg);
-    background-position: left;
-    /* background-size: cover; */
-    background-repeat: no-repeat;
-    background-color: #f4f4f4;
-    /* padding-left: 7.3em ; */
-    text-shadow: 3px 3px 6px black;
-    /* min-height: 100%; */
-    background-size: cover;
- }
- .first p, .first h2{
-    color: white;
-    margin-left: 5rem;
-    
-
- }
-
- .first button{
-    margin-top: 20rem;
-    margin-left: 5rem;
-    margin-bottom: 0rem;
-
-    
- }
-
- .second{
-    /* padding-left: 3em ; */
-    padding: 0em 1em 0em 3em;
-    
-    background-color:#f4f4f4;
-}
-
-.second button{
-    margin-top: 2em;
-    margin-left: 0em;
-    /* margin-bottom: ; */
-}
-
-.second h5,hr{
-    color: #024d87;
-    
-}
-.second i{
-    color: #9b9b9b;
-}
-
-
-
-.view p{
-    color: #024d87;
-    float: right;
-    margin-right: 4em;
-    font-weight: bold;
-}
-
-
-
-.down .follow{
-    margin-top: 0;
-}
-
-
-
-
-.follow{
-    background-color: #024d87;
-    height: 4rem;
-    margin-bottom: -3em;
-    /* width: 100%; */
-    
-}
-
-
-
-.out{
-    margin-top: 0em;
-    display: flex;
-    flex-direction: row;
-    /* position: relative; */
-    /* margin-left: 0rem; */
-    /* bottom: 5rem; */
-    align-items: center;
+.lists li{
     list-style: none;
-    padding: 0.75em 0em 0.75em 1.7em;
-
-}
-.in{
-    /* position: relative; */
-    
-    /* display: inline; */
-    font-size: 0.9rem;
-    padding-right: 8em;
-    
-    
-}
-.in img{
-    height: 2.1rem ;
-    width: 2.3rem;
-    box-sizing: border-box;
-    background-color: white;
-    left: 0;
-
-
-}
-
-.out li a{
     text-decoration: none;
-    color: white;
-    margin-left: 0.5em;
 }
+.lists li a{
+    text-decoration: none;
+}
+
+.lists li h5{
+    font-weigh:
+}
+
+
 
 
 
 .down footer{
     margin-top: 0rem;
 }
-
+footer.last{
+    margin-top: 0;
+}
 
 .last{
-    margin-top: 10em;
+    /* margin-top: 10em; */
     background: #eeeeee;
     font-size: smaller;
     margin-left: 7.5rem;
@@ -1045,4 +752,132 @@ button{
 } */
 .pp , .carousel-inner h5{
     background-color: black;
+}
+
+
+
+
+
+
+.down .follow{
+    margin-top: 0;
+}
+
+
+
+
+.follow{
+    background-color: #024d87;
+    height: 4rem;
+    margin-bottom: -3em;
+    /* width: 100%; */
+    
+}
+
+
+
+.out{
+    margin-top: 0em;
+    display: flex;
+    flex-direction: row;
+    /* position: relative; */
+    /* margin-left: 0rem; */
+    /* bottom: 5rem; */
+    align-items: center;
+    list-style: none;
+    padding: 0.75em 0em 0.75em 1.7em;
+
+}
+.in{
+    /* position: relative; */
+    
+    /* display: inline; */
+    font-size: 0.9rem;
+    padding-right: 8em;
+    
+    
+}
+.in img{
+    height: 2.1rem ;
+    width: 2.3rem;
+    box-sizing: border-box;
+    background-color: white;
+    left: 0;
+
+
+}
+
+.out li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 0.5em;
+}
+
+
+
+.down footer{
+    margin-top: 0rem;
+}
+
+
+.last{
+    margin-top: 10em;
+    background: #eeeeee;
+    font-size: smaller;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    
+}
+.last h5{
+    margin-top: 2em;
+    /* margin-bottom: ; */
+    
+}   
+.column hr{
+    margin-top: -1em;
+    width: 70%;
+    
+}
+.last h5,span{
+    color: black;
+    font-weight:normal;
+}
+.last p a{
+    text-decoration: none;
+    line-height: 0.5rem;
+    
+}
+.last p{
+    line-height: 0.5rem;
+    padding-left: 0rem;
+    
+    
+    
+}
+.last button{
+    background-color: #0370c0;
+    margin-left:0;
+    /* align-items: center; */
+    justify-content: space-between;
+    color: #eeeeee; 
+    border: none;
+    height: 3em;
+    width: 10em;
+    margin-bottom: 1em;
+}
+
+.column{
+    padding-left: 3em;
+}
+
+
+.terms{
+    display: flex;
+    flex-direction: row;
+    /* gap: 17em; */
+    margin-left: 2em;
+}
+div.rhs{
+    margin-left: 13.5rem;
+   
 }
