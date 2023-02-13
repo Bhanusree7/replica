@@ -45,24 +45,34 @@ background-color: #0370c0;
     height: 4rem;
 }
 .print{
-    display: flex;
-    position:relative;
-   left:60rem;
-    top:1rem;
-    margin-left:7.5rem;
-    margin-right:7.5rem;
+    /* display: flex; */
+    /* position:relative; */
+   /* left:60rem; */
+    /* align-items: end; */
+    /* top: 2.5rem; */
+    float: right;
+    padding-top: 0.7rem;
+    /* align-self: self-end; */
+    /* margin-left:7.5rem; */
+    margin-right:8.5rem;
     
 }
 .products{
     background-color: #f6f6f6;
+    margin-top: 3rem;
     margin-left: 7.5rem;
     margin-right:7.5rem;
 }
 .products h1{
-    color: #6e6d6d;
+    color: #222222;
     font-family: sans-serif;
+    /* padding:0 20rem 0 20rem; */
+    padding: 2rem 0rem 2rem 2rem;
+    text-align: left;
+    font-size: 3rem;
+    font-family: 'Source Sans Pro';
+    font-weight: lighter;
 
-    padding:0 20rem 0 20rem;
 }
 @media only screen and (max-width:980px) and (min-width:400px){
     
@@ -284,6 +294,19 @@ div.terms{
 
 }
 @media only screen and (min-width:300px) and (max-width:700px){
+    
+    .products h1{
+        font-size:2rem; ;
+    }
+    div.lists{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 7.5rem;
+        margin-right: 7.5rem;
+    }
+    
+    
     .column hr{
         margin-top: -1em;
         width: 100%;
@@ -583,8 +606,8 @@ color: white;
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin-left: 7.3rem;
-    margin-right: 7.3rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
 }
 
 .lists li{
